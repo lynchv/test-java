@@ -17,6 +17,4 @@ public class Order {
     public String getDestination() {
         return destination;
     }
-
-
 }
