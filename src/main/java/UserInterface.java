@@ -60,10 +60,12 @@ public class UserInterface {
 
     private void addFlight() {
         System.out.println("Flight day: ");
-        int day = Integer.parseInt(userOptions.nextLine());
+        int day = userOptions.nextInt();
 
         System.out.println("Flight capacity:");
-        int capacity = Integer.parseInt(userOptions.nextLine());
+        int capacity = userOptions.nextInt();
+
+        userOptions.nextLine();
 
         System.out.println("Departure:");
         String departure = userOptions.nextLine();

@@ -17,6 +17,5 @@ public class run {
         UserInterface app = new UserInterface();
         app.run();
     }
-
 }
 
